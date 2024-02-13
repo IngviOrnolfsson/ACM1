@@ -8,7 +8,7 @@ MPbase <- R6Class("MPbase",list(
   paramNames = NULL,
   paramDescription = NULL,
   
-  ### CONSTRUCTOR AND PRINT
+  ### CONSTRUCTOR
   initialize = function(name,
                         params,
                         role){
